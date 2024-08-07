@@ -1,0 +1,192 @@
+body {
+ margin: 0;
+ padding: 0;
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.card {
+ box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+ margin-bottom: 1rem;
+}
+
+.card {
+ position: relative;
+ display: -ms-flexbox;
+ display: flex;
+ -ms-flex-direction: column;
+ flex-direction: column;
+ min-width: 0;
+ word-wrap: break-word;
+ background-color: #fff;
+ background-clip: border-box;
+ border: 0 solid rgba(0, 0, 0, 0.125);
+ border-radius: 0.25rem;
+}
+
+.card-info:not(.card-outline) > .card-header,
+.card-info:not(.card-outline) > .card-header a {
+ color: #fff;
+}
+
+.card-danger:not(.card-outline)>.card-header, .card-danger:not(.card-outline)>.card-header a {
+  color: #fff;
+}
+
+.card-info:not(.card-outline) > .card-header {
+ background-color: #17a2b8;
+}
+
+.card-danger:not(.card-outline)>.card-header {
+  background-color: #dc3545;
+}
+
+.card-header {
+ background-color: transparent;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+ padding: 0.75rem 1.25rem;
+ position: relative;
+ border-top-left-radius: 0.25rem;
+ border-top-right-radius: 0.25rem;
+}
+
+.card-header {
+ margin-bottom: 0;
+ background-color: rgba(0, 0, 0, 0.03);
+ border-bottom: 0 solid rgba(0, 0, 0, 0.125);
+}
+
+.card-title {
+ float: left;
+ font-size: 1.3rem;
+ font-weight: 600;
+ margin: 0;
+}
+
+.icon {
+ font-size: 20px;
+ padding-bottom: 3px;
+}
+
+.card-footer::after, .card-header::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+label:not(.form-check-label):not(.custom-file-label) {
+  font-weight: 700;
+}
+.card-footer {
+  padding: .75rem 1.25rem;
+  background-color: rgba(0, 0, 0, .03);
+  border-top: 0 solid rgba(0, 0, 0, .125);
+}
+
+.card-footer .btn-info {
+  color: #fff;
+  background-color: #17a2b8 ;
+  border-color: #17a2b8;
+  box-shadow: none;
+}
+
+.card-body .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #17a2b8;
+    outline: 0;
+    box-shadow: inset 0 0 0 transparent;
+}
+
+
+.custombtn12 {
+  padding: 2px 13px !important;
+  border-radius: 69px !important;
+  font-size: 14px !important;
+}
+
+.custombtn121 {
+  padding: 2px 9px !important;
+}
+
+.custombtn122 {
+  padding: 2px 14px !important;
+}
+
+#root > div > div > div > div.minheight > div > div > div.row.bg-white.pb-4.rounded-bottom.table-responsive > div.MuiDataGrid-root.MuiDataGrid-root--densityCompact.MuiDataGrid-withBorderColor.css-1lymaxv-MuiDataGrid-root > div.MuiDataGrid-main.css-204u17-MuiDataGrid-main > div.MuiDataGrid-virtualScroller.css-axafay-MuiDataGrid-virtualScroller > div.MuiDataGrid-overlayWrapper.css-ql19fo-MuiDataGrid-overlayWrapper{
+  height: 35px !important;
+}
+
+.MuiDataGrid-footerContainer{
+  background: #17a2b8;
+  border-color: #17a2b8;
+  box-shadow: inset 0 0 0 transparent;
+}
+
+.MuiDataGrid-overlayWrapper .css-ql19fo-MuiDataGrid-overlayWrapper{
+  height: 35px !important;
+  }
+
+  .css-rtrcn9-MuiTablePagination-root {
+    color: #ffffff !important;
+}
+
+.MuiToolbar-root > p {
+  margin-top: 10px;
+}
+
+.css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon{
+  color: #ffffff !important;
+}
+
+.css-128fb87-MuiDataGrid-toolbarContainer { 
+  background: #17a2b8;
+}
+
+.MuiDataGrid-toolbarContainer > button {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.css-t89xny-MuiDataGrid-columnHeaderTitle {
+  font-weight: bold !important;
+}
+
+.modal{
+  margin-top: 50px !important;
+}
+.question-logo {
+  /* font-size: 55px; */
+  font-size: 40px;
+  color: #dc3545;
+  background-color: white;
+  border-radius: 50%;
+  padding: 15px;
+  height: 80px;
+  width: 16%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin: -34px auto -52px auto;
+}
+
+.mod-line {
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.ccedit-h {
+  color: #006666;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.ccedit-p {
+  color: #5F5F5F;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
